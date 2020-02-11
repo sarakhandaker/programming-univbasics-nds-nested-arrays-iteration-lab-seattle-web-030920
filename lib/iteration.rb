@@ -7,6 +7,15 @@ def join_ingredients(src)
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
   
+  row_index = 0
+while row_index < spice_rack.count do
+  element_index = 0
+  while element_index < spice_rack[row_index].count do
+    puts spice_rack[row_index][element_index]
+    element_index += 1
+  end
+  row_index += 1
+end
   
 end
 
