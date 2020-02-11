@@ -8,8 +8,9 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   
   row_index = 0
+  string=[]
 while row_index < src.count do
-    puts spice_rack[row_index][element_index]
+    string[row_index]="I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza" 
   row_index += 1
 end
   
