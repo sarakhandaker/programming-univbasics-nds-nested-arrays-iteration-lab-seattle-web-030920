@@ -24,7 +24,7 @@ def find_greater_pair(src)
     row_index = 0
   string=[]
 while row_index < src.count do
-    string[row_index]=src[row_index][0]>src[row_index][1]? src[row_index][0] : src[row_index][1]
+    string[row_index]=src[row_index][0] > src[row_index][1]? src[row_index][0] : src[row_index][1]
   row_index += 1
 end
   string
