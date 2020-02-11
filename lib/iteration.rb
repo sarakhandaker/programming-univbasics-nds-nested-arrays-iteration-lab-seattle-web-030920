@@ -13,7 +13,7 @@ while row_index < src.count do
     string[row_index]="I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza" 
   row_index += 1
 end
-  
+  string
 end
 
 def find_greater_pair(src)
